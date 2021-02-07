@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HaveIT
+url: /haveit
 ---
 
 Second level food aggregator app to grab best deals on your favourite food items.

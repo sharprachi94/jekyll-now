@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Zenvio
+url: /zenvio
 ---
 
 Zenvio is a scheduling solution for spas and salons

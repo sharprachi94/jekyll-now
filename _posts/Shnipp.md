@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Shnipp
+url: /shnipp
 ---
 
-Ecommerce market place. I was hired as a PM
+Ecommerce marketplace. I was hired as a PM
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="250" src="{{site.haveit}}" allowfullscreen></iframe>
 
