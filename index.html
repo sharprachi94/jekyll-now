@@ -6,12 +6,10 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1>
-        <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
           <img class ="logo" src="{{ site.baseurl }}/images/{{ post.title }}.png"/>
-          <div class="post-title">{{ post.title }}</div>
-        </a>
-      </h1>
+          <h1 style="padding-bottom: 10px;">{{ post.title }}</h1>
+      </a>
 
       <div class="entry">
         {{ post.excerpt }}
