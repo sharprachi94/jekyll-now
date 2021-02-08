@@ -5,11 +5,14 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-
-      <a href="{{ site.baseurl }}{{ post.url }}">
-          <img class ="logo" src="{{ site.baseurl }}/images/{{ post.title }}.png"/>
-          <h1 style="padding-bottom: 10px;">{{ post.title }}</h1>
-      </a>
+      <h1>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div class="logo">
+            <img src="{{ site.baseurl }}/images/{{ post.title }}.png"/>
+          </div>
+          <div class="post-title">{{ post.title }}</div>
+        </a>
+      </h1>
 
       <div class="entry">
         {{ post.excerpt }}

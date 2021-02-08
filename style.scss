@@ -211,9 +211,16 @@ img {
 }
 
 .logo {
+  display: inline-block;
+  vertical-align: middle;
   height: 50px;
   width: 50px;
   margin-right: 20px;
+}
+
+.post-title {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 nav {
